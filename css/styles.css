@@ -178,9 +178,14 @@ margin-top: 1%;
 }
 
 
-@@media (max-width: 900px) {
+@media (max-width: 1028px) {
 .title-image {
   transform: rotate(0deg);
+  position: static;
+
 }
 
+#title {
+  text-align: center;
+}
 }
